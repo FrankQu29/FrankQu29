@@ -1,4 +1,4 @@
-# FrankQu29
+# FrankQu
 ### Hey everybody I'm Francisco: an aeronautical engineering student and a jr-dev
 
 ---
