@@ -38,13 +38,3 @@
 <img src="https://github-readme-stats.vercel.app/api?username=FrankQu29"/>
 
 ---
-<canvas id="myChart" width="400" height="400"></canvas>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
-var ctx = document.getElementById('myChart').getContext('2d');
-var myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-       
-
----
