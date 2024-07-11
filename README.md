@@ -37,4 +37,4 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=FrankQu29"/>
 
-<img data-url="/FrankQu29/FrankQu29/graphs/commit-activity-data" />
+<img src="https://github.com/FrankQu29/FrankQu29/graphs/commit-activity" />
