@@ -24,6 +24,6 @@ jobs:
 
     - name: Commit and push changes
       run:
-        git add .
+        git add -p .github/workflows/commits.png
         git commit -m 'Actualizar gráfica de commits'
         git push
