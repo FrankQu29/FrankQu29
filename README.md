@@ -40,4 +40,4 @@
 <img src="https://github.com/FrankQu29/FrankQu29/graphs/commit-activity" />
 
 
-![Commits por dia](.github/workflows/commits.png)
+![Commits por dia](commits.png)
