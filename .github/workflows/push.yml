@@ -22,7 +22,13 @@ jobs:
     - name: Run script
       run: python .github/workflows/script.py
 
-    - name: Commit and push changes
-      uses: actions-js/push@master
+    - name: Username and commit
+    - run: |
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+        git add .github/workflows/commits.png
+
+    - name: Push changes
+      uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.USER_TOK }}
