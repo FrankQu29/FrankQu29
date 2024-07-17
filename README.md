@@ -37,7 +37,7 @@
 
 <img src="https://github-readme-stats.vercel.app/api?username=FrankQu29"/>
 
-<img src="https://github.com/FrankQu29/FrankQu29/graphs/commit-activity" />
 
+## Actualizaciones del README.md
 
 ![Commits por dia](commits.png)
