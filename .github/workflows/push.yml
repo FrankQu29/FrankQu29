@@ -30,8 +30,6 @@ jobs:
         git add .
 
     - name: Push changes
-        permissions:
-           content: write
       uses: ad-m/github-push-action@master
       with:
           github_token: ${{ secrets.USER_TOK }}
