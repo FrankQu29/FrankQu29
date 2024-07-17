@@ -23,7 +23,6 @@ jobs:
       run: python .github/workflows/script.py
 
     - name: Commit and push changes
-      run:
-        git add -A 
-        git commit -m 'Update-commits'
-        git push
+      uses: actions-js/push@main
+      with:
+        github_token: ${{ secrets.USER_TOK }}
