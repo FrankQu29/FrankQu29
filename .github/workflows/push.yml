@@ -24,6 +24,8 @@ jobs:
 
     - name: Commit and push changes
       run:
-        git add .github/workflows/commits.png
+        git config --global user.name 'FrankQu29'
+        git config --global user.email 'tepoxfrancisco1@gmail.com'
+        git add .
         git commit -m 'Actualizar gráfica de commits'
         git push
