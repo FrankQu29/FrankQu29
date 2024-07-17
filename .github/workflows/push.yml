@@ -23,7 +23,7 @@ jobs:
       run: python .github/workflows/script.py
 
     - name: Commit and push changes
-      uses: actions-js/push@main
+      uses: actions-js/push@master
       with:
         github_token: ${{ secrets.USER_TOK }}
         
