@@ -29,7 +29,3 @@ jobs:
         git add commits.png
         git commit -m 'Actualizar gráfica de commits'
         git push
-      with:
-        username: ${{ secrets.USER_NAM }}
-        password: ${{ secrets.USER_TOK }}
-
