@@ -4,6 +4,7 @@ on: push
  
 
 jobs:
+
   update-graph:
     runs-on: ubuntu-latest
 
@@ -29,12 +30,12 @@ jobs:
         git add .
 
     - name: Push changes
+        permissions:
+           content: write
       uses: ad-m/github-push-action@master
       with:
           github_token: ${{ secrets.USER_TOK }}
           branch: ${{ github.ref }}
-          
-    - name: ue
-      uses: fastify/github-action-merge-dependabot@v2.1.1
+    - uses: fastify/github-action-merge-dependabot@v2.1.1
       with:
           github-token: ${{ secrets.USER_TOK }}
