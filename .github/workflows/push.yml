@@ -1,8 +1,7 @@
 name: Actualizar gráfica de commits
 
 on: push
-  schedule:
-    - cron: '0 0 * * *'  # Corre todos los días a la medianoche
+ 
 
 jobs:
   update-graph:
