@@ -27,13 +27,11 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add .
+        git add commits.png
 
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
           github_token: ${{ secrets.USER_TOK }}
           branch: ${{ github.ref }}
-    - uses: fastify/github-action-merge-dependabot@v2.1.1
-      with:
-          github-token: ${{ secrets.USER_TOK }}
+    
